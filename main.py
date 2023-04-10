@@ -11,7 +11,7 @@ col1, col2 = st.columns(2)
 with col1:
     model = st.radio(
         "Select your LLM model",
-        ('text-davinci-00', 'gpt-3.5-turbo', 'gpt-4'))
+        ('text-davinci-002', 'gpt-3.5-turbo', 'gpt-4'))
 
 with col2:
     openai_key = st.text_input(label="OpenAI API Key ",  placeholder="Ex: sk-2twmA8tfCb8un4...", key="openai_api_key_input")
